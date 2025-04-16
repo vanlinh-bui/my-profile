@@ -1,51 +1,113 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Profil de Van Linh Bui</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Import de Font Awesome pour l'icône LinkedIn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-  <!-- En-tête avec photo et présentation -->
+
   <header>
     <div class="container header-container">
-      <img src="profil.jpg" alt="Photo de Van Linh Bui" class="profile-img">
+      <img src="images/profile.jpeg" alt="Photo de Van Linh Bui" class="profile-img" />
       <h1>Van Linh Bui</h1>
-      <p class="profession">Étudiant en 2ème année de Bachelor en Management à ICN Business School</p>
-      <p class="bio">
-        Créatif, ambitieux, curieux et motivé avec un sens aigu de l'écoute. Passionné de sport, en particulier de musculation, je m'efforce d'allier rigueur académique et discipline personnelle.
-      </p>
+      <p class="profession">Étudiant en Management - ICN Business School</p>
     </div>
   </header>
 
-  <!-- Section principale -->
-  <main>
-    <!-- Section dédiée à la recherche d'alternance -->
-    <section id="alternance">
-      <div class="container content-container">
-        <h2>Recherche d'alternance</h2>
-        <p>
-          Actuellement en quête d'une alternance pour approfondir mes compétences en management et mettre en pratique mes connaissances, je suis ouvert à de nouvelles opportunités professionnelles. Si mon profil vous intéresse, n'hésitez pas à me contacter via mon LinkedIn.
-        </p>
-      </div>
-    </section>
-  </main>
+  <section id="about">
+    <div class="container card-white">
+      <h2>À propos de moi</h2>
+      <p>Étudiant en 2ᵉ année de Bachelor à l’ICN Business School...</p>
+    </div>
+  </section>
 
-  <!-- Pied de page avec réseaux sociaux -->
+  <section id="skills">
+    <div class="container card-white">
+      <h2>Compétences</h2>
+      <ul class="skills-list">
+        <li>Communication</li>
+        <li>Relationnel</li>
+        <li>Esprit d’équipe</li>
+        <li>Rigueur</li>
+        <li>Analyse financière</li>
+        <li>Suite Office / Google Workspace</li>
+        <li>HTML / CSS / Canva</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container card-white">
+      <h2>💼 Expériences professionnelles</h2>
+      <ul class="experiences">
+        <li>
+          <h3>Stagiaire assistant financier - Mairie de Vandoeuvre-lès-Nancy</h3>
+          <p><em>Mai 2024 - Juillet 2024</em></p>
+          <p>Analyse financière...</p>
+        </li>
+        <li>
+          <h3>Serveur / Cuisinier - Restaurant Viet Manh</h3>
+          <p><em>Avril 2023 - Août 2023</em></p>
+          <p>Service client...</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="alternance">
+    <div class="container card-white">
+      <h2>🎯 Recherche d'alternance</h2>
+      <p>Je recherche un contrat d’apprentissage...</p>
+      <a href="https://www.linkedin.com/in/van-linh-bui" target="_blank" class="btn">Contactez-moi sur LinkedIn</a>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="container card-white">
+      <h2>📄 Mon CV</h2>
+      <p>Vous pouvez consulter ou télécharger mon CV ci-dessous :</p>
+      <a href="Van-Linh-Bui-CV.pdf" download class="btn">Télécharger mon CV</a>
+    </div>
+  </section>
+
+  <section id="langues">
+    <div class="container card-white">
+      <h2>🌍 Langues & Mobilité</h2>
+      <ul class="skills-list">
+        <li>Français (C2)</li>
+        <li>Vietnamien (C1)</li>
+        <li>Anglais (B2)</li>
+        <li>Espagnol (B1)</li>
+        <li>Permis B</li>
+        <li>Mobilité : Nancy et alentours</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="interets">
+    <div class="container card-white">
+      <h2>Centres d’intérêt</h2>
+      <p>Passionné par les cryptomonnaies et la blockchain...</p>
+    </div>
+  </section>
+
   <footer>
     <div class="container footer-container">
       <ul class="social-links">
         <li>
           <a href="https://www.linkedin.com/in/van-linh-bui" target="_blank">
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
           </a>
         </li>
       </ul>
       <p>&copy; 2025 Van Linh Bui. Tous droits réservés.</p>
     </div>
   </footer>
+
 </body>
 </html>
